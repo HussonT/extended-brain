@@ -1,0 +1,1 @@
+- Write/speak about something from your heart → An insight you had

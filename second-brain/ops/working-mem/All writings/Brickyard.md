@@ -1,0 +1,6 @@
+- what Brickyard is
+- what Brickyard is NOTwhat it's like to build herewhy you decided to build herebest reasons to do Brickyard
+- reasons why you should NOT
+- how it was different than you thought it would be
+- what the community is like
+- what the partner relationships are likeetc etc

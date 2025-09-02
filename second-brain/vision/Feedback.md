@@ -1,0 +1,3 @@
+- Whenever seeing a client, decide what you want to go do there. Make it an easy yes at the end.
+- Do any new presentation at least twice
+- Do not have a precnoceived notion of how somebody would be

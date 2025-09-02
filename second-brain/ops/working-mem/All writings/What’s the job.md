@@ -1,0 +1,1 @@
+Alright - imagine, I’m telling you could have a non-zero chance at changing the world, forever. and you respond with “what’s the job?”

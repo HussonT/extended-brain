@@ -1,0 +1,42 @@
+- What are the inputs into the model? Can we go a bit deeper into this today?
+    - Our mantra when it comes to developing the model is “simplicity on the farside of complexity” so we’re starting with very simple, naive things and then layering additional complexity bit by bit.
+        - This means: today input is profile, skills & topics of interest + “endorsement-strenght”
+- How do you and your co-founder view the level of competition in the market - even from Web2 freelance firms? Any embracing AI? For example with web3 below...
+    - Coordinape - [https://coordinape.com/](https://coordinape.com/)
+    - Talent Protocol - [https://www.talentprotocol.com/](https://www.talentprotocol.com/)
+    - The signal-to-noise ratio for talent relevance on established platforms like LinkedIn, Indeed or UpWork is very low. This is set to become worse now that most of the profiles, proposals, and cover letters are generated using chatGPT. Review, endorsement, and other trust-building mechanisms on these platforms operate on skewed incentives of rage or reciprocity, rendering them nearly meaningless. Search happens with keywords, which provides the lowest bandwidth context matching possible. The primary strategy on either of these platforms is therefore volume, as in applying to everything and "seeing what sticks." Eden prioritizes talent relevance by building trust-building mechanisms, such as skin-in-the-game endorsements and reviews, that are based on aligned incentives. Our approach allows for more signal and therefore for you to talk to fewer, but more of the right people.
+    - Pallet is aiming to scale trust by letting a community host its own job board. They are not making talent search more relevant, they are simply adding another fragmented channel with the same outdated tools. Eden leverages community to create talent visibility & understand talent relevance - pallet solely creates (limited) talent visibility.
+    - Another set of competitors are decentralised sourcing/referral networks like job protocol, tech-tree or intropia. They want to leverage the context & trust in other people's networks by incentivizing anyone to refer talent in return for a bounty. This however completely misaligns incentives as referrers are incentivized to find a candidate that is just good enough to get the bounty. When you tie the reward directly to the transaction & not to the success of the collaboration (like the social capital that either gets slashed or grows in a non-monetary friend-level referral) you incentivize volume of applications & not relevance of the referral.
+- Cost of acquisition for Eden in expanding to get people onto the platform?
+    - We’re aiming to leverage a hair on fire problem in online communities such as discord where the only way to find eachother for projects is through the “jobs” or “opportunities” tab.
+    - We’re leveraging some activation moments/viral loops by having users send out an endorsement request for a specific skill.
+- How do you view your potential TAM - is it just freelance? For me, I believe it to be more "all human capital / talent capital" and i just need a way to quantify that
+    - We want to be the coordination layer of the web and see three important steps in that:
+        - First is communities
+        - Then open freelance marketplace
+        - Then enterprise liquid workforce plugin
+- If TRST is a reputation token and cant be bought, what features do you put in place to encourage users to put up their own TRST holdings to vouch for someone? Whats the reward for them? Do you split portion of rewards to the person who vouches?
+    - Yes
+- How do you earn TRST in the first place?
+    - The short answer is we’re still experimenting with this:
+        - The general pattern →
+            - Harvard <> community college
+                - Provenance is important → trusted source
+                - Ease of obtaining
+                - Recognition by common set of people who recognise both before
+        - On the community scale this is how it will work today →
+            
+        - This is how we see it scale beyond communities →
+            
+- Your most common Q - whats the threat of chat GPT being implemented on for example LinkedIn to Eden? Sure, people cant vouch their social capital in the form of TRST, but they reach millions of people immediately in now a more accurate way
+    - Sure you’ll be able to search linkedin with natural language, but that doesn’t mean you’ll get the most relevant results - in order to get to a relevant talent match they will need to scale context & trust which would mean rearchitecitng their entire platform and would also mean most of the data they have today is useless
+    - The signal-to-noise ratio for talent relevance on established platforms like LinkedIn, Indeed or UpWork is very low. This is set to become worse now that most of the profiles, proposals, and cover letters are generated using chatGPT. Review, endorsement, and other trust-building mechanisms on these platforms operate on skewed incentives of rage or reciprocity, rendering them nearly meaningless. Search happens with keywords, which provides the lowest bandwidth context matching possible. The primary strategy on either of these platforms is therefore volume, as in applying to everything and "seeing what sticks." Eden prioritizes talent relevance by building trust-building mechanisms, such as skin-in-the-game endorsements and reviews, that are based on aligned incentives. Our approach allows for more signal and therefore for you to talk to fewer, but more of the right people.
+- What do you see as your key growth drivers?
+    - One-off 5h tasks
+    - Communities
+    - Endorsements
+- Wondering if EF invested since you were on the program?
+    - Nope - can do the story
+- Could you send over your current cap table of angel investors / funds committed so far (hard and soft)
+    
+- Do you have any outstanding convertibles?

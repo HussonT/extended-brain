@@ -1,0 +1,41 @@
+Gm Qiao,
+
+  
+
+Let me dive a bit deeper here in the kinds of problems that were previously unsolvable at scale without crypto and the way we’re solving them in Eden:
+
+  
+
+1. **Meaningfully scaling context & trust throughout the network:** Referrals work so well because there is a deep understanding of a person’s context & trust. Context: not only the work they’ve previously done, but what personality do they have, what culture are they looking for, what stage of their life are they in. Trust: A high-context referral comes with a referring party’s social capital at stake. Without crypto, designing a mechanism that mimics that dynamic to make it scalable is nearly impossible. **You need very clear, trustless rules on how that staking mechanism works and what can be expected from it. If we as Eden would still have the power to arbitrarily change the rules after the fact - this system wouldn’t work.** These skin in the game endorsements are the context rich, trustful replacement for today’s meaningless 5-star ratings. This would also give you the possibility to give you a more meaningful measure related to the network, such as “top 5% most trusted graph convolutional neural net engineers” rather than “5-star AI engineer”.
+2. **Solving recruiter incentive mis-alignement:** By working with referral bounties, you’re not solving the talent matching problem in the optimal way. The bounty is very expensive and it’s hurting your chances for the best match: There’s three stakeholders involved: the person hiring, the person looking for work & the recruiter. Their incentives are respectively:
+    
+    1. person hiring: wants the best candidate for the job within their budget
+    2. person looking for work: wants the best job matching their experience & salary range
+    3. recruiter: wants to find the person as fast as possible that is just good enough such that they won’t lose their bounty.
+    
+    While the a & b incentives line up beautifully, the recruiter’s incentive significantly reduced the changes for a match made in haven. By going a step further and rewarding anybody in the network for adding context & trust through verification, vouching, … to the network and building AI that uses those high-quality signals to predict project-person fit, you now have an entire network that is incentivised around making the incentives between a & b maximally line up. **Building that network is impossible without great algorithmic mechanism design & crypto-economics.**
+    
+3. **Job Market Signaling:** A well known problem in the hiring space is the [Job Market Signaling problem](https://www.jstor.org/stable/1882010). It basically says that as a hirer you’re making a decision under high uncertainty, which basically makes it an investment decision. It also shows that from the candidate’s perspective, you have every incentive to inflate your abilities rather than be truthful about them because of the decisioning dynamic. By creating tools that allow other people to signal their skin in the game to the network, very much like how investors, advisors, early customers etc can be seen as a signal for further startup investing - whether it is for additional capital or for people joining the team, you reduce the uncertainty under which the hiring as an investement decision is made, resulting in a higher likelihood of a great match. **Meaningfully signaling requires skin in the game, otherwise you get things like linkedin endorsements - which are basically meaningless. Again impossible without a crypto-economic network underpinning all of it.**
+
+  
+
+Besides that, we provide utility to a lot of on-chain credential tools out there, as we use them as reputational capital in the network.
+
+  
+
+  
+
+Eden Protocol uses crypto to optimize the matching of the right person to the right project for the right reasons. Just like in the Bitcoin network where individuals are rewarded for securing the network, in the Eden network, individuals are rewarded for facilitating successful hires. However, Instead of just adding an incentive layer to open roles to decentralize referrals, the Eden Protocol focuses on scaling context and trust in the network, which is what makes a referral work in the first place. Without AI and crypto, it would be nearly impossible to achieve the level of trust & context required for great matching at scale. To build a network that connects individuals to the right opportunities, the Eden Protocol relies on strong mechanism design and the power of crypto. Here are 10 specific ways that are true for Eden today:
+
+  
+
+1. Crypto helps Eden to scale context and trust in the network by allowing for clear, trustless rules for staking mechanisms. This ensures that the system remains fair and transparent, allowing for the creation of a more meaningful measure of trust within the network.
+2. Crypto helps Eden filter signal from noise, which is key to make the AI highly useful. People are generally pretty bad at assessing themselves when it comes to skills. Great mechanism design can help smooth out the noise & provide strong, reliable signals that have high impact on the AI by soliciting useful observations from the network.
+3. Crypto helps Eden to align the incentives of all stakeholders by rewarding anyone in the network for adding context and trust through verification and vouching. This creates an entire network that is incentivized around maximizing the alignment of incentives between the hiring party and the job seeker. This is different form a recruiter who is incentivised to find a candidate fast that is just good enough for them to get & keep their bounty.
+4. Crypto makes job market signaling more reliable & transparent through the use of skin-in-the-game endorsements & on-chain events in Eden, which serve as a more reliable indicator of a person's abilities and can help to reduce uncertainty and improve decision-making for both hiring parties and job seekers.
+5. Crypto enables Eden with the creation of a decentralized reputation system that can provide more accurate and nuanced information about a person's abilities and reputation within the industry. This can help to reduce the impact of biases and improve the overall fairness of the hiring process. This is btw one of the place where I saw clear vision alignment with what you were saying on the gg podcast.
+6. Crypto allows for the creation of Eden as a decentralized marketplace/network for talent, which can provide greater access and opportunities for job seekers while also allowing hiring parties to tap into a larger pool of potential candidates.
+7. Crypto ensures data integrity on Eden: By storing data on a decentralized network it becomes much more difficult to tamper with or alter records. This ensures that the data being used in our Protocol is accurate and trustworthy.
+8. Crypto ensures anonymity in Eden: By using cryptographic techniques, such as zero-knowledge proofs, it is possible to ensure that the identities of individuals within the Eden Protocol network remain private. This can be important for both job seekers and companies, as it allows them to interact with each other without revealing personal information further reducing bias & broadening the scope of opportunities for a lot of people and advancing Eden in it’s mission of getting the right person on the right project for the right reasons.
+9. Crypto allows Eden to Automate processes: By using smart contracts, it is possible to automate certain processes within the Eden Protocol network. For example, when a person is hired through the platform, a smart contract automatically releases a payment to the the network to reward meaningful endorsements. This streamlines, simplifies & makes transparent a lot of important processes within the network.
+10. Crypto Ensures security on Eden: The use of cryptography and decentralized networks helps to ensure the security of the Eden Protocol network. By storing data on a decentralized network, it becomes much more difficult for hackers to access or alter it.

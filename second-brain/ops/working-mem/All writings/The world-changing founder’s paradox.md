@@ -1,0 +1,1 @@
+You have to be naive enough to attempt the impossible yet secure & capable enough to actually make progress towards it

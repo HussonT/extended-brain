@@ -1,0 +1,13 @@
+- 3 reasons am I building this in chatt
+    - High school
+    - Horses vs cars
+    - Company building has been a road to be closer to my daughter - got my O1 thanks to this
+- We’re building the blockchain network that enables an ecosystem of AI-talent agents on the one side & AI-hiring agents on the other to figure out if a person is an ideal match for an opportunity, quickly.
+- There are three main things you need to decentralise to build & grow such a network: incentives to produce, validate & then effectively search very rich & up-to-date talent & opportunity data
+- There are many reasons why a blockchain network is needed to build AI-hiring agents that will match a 100x better than the ones built on corporate networks would, but there’s 3 that I’m highlighting because they’re important to our vision for Eden:
+    - **you need to let the edges permissionlessly take care of compute:**
+    - **Investing in your profile cannot have downside:**
+    - **Bake in aligned incentives:**
+- Our tool that does the first 2 of those 3 is live in 3 communities right now.
+- Myosin example
+- Our vision

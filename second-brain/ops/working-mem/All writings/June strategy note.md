@@ -1,0 +1,1 @@
+First we build the product, then we can build the network → to build the network, we need a tech-genius joining us → we need to have some kind of traction to get them excited → conclusion, we focus on getting the product ready

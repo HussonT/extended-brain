@@ -1,0 +1,35 @@
+---
+title: "The Worst Part of YC"
+author: Sam Altman
+source: https://blog.samaltman.com/the-worst-part-of-yc
+date_scraped: 2025-08-06
+word_count:      635
+tags: [sam-altman, essays]
+---
+
+# The Worst Part of YC
+
+## The Worst Part of YC
+We are going to send out YC summer 2014 interview decisions (both yes and no) before 10 pm PDT tonight.
+The worst part of our job at YC is rejecting companies.  It leaves me feeling down for many days after
+our application process.  I experienced
+plenty of rejection from investors while running my own startup, and I remember
+well how bad it is.  Starting a startup
+is such a hard thing that we wish we could help everyone doing so.
+Some day, we hope to be able to fund almost all the good
+startups.  In the meantime, we still have
+capacity constraints as we figure out how to scale, and that means we’re stuck saying
+no to potentially good companies.
+The best startups often look bad at this stage, and we make
+mistakes.  We could easily miss something
+great.  If you’re working on something
+that users love, you like working on it, and you have a plan for how to build a
+business around it, then please don’t let us deter you.  (It's sometimes useful to ask friends for an outside perspective on how you're doing.)
+Although we had nearly 20% more applications than a year
+ago, it was really striking how much higher the average quality of applications
+was for this batch compared to any previous batch.  Most of the partners independently mentioned
+this to me.
+Anyway, to everyone we’re unable to fund: Best of luck, and
+don’t give up.  We love to see founders
+and companies reapply—companies that look bad now can look great with 6 months
+of progress.

@@ -1,0 +1,5 @@
+- [x] Organizer kastje voor bureau boven
+- [x] Kabel management systeem voor muziek stuff?
+- [x] Opberg dingkjes voor onder bed
+- [x] Gezellige lichten voor muziek bureau
+- [x] Potjes voor eten

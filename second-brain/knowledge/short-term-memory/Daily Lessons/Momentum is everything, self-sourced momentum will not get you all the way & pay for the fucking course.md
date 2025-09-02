@@ -1,0 +1,6 @@
+---
+Date: 2023-12-11
+---
+1. Momentum is everything: If you don’t have it the only thing you should be doing is things to try to find it. Doing things without momentum that will very unlikely lead to momentum will put you in massive energy deficit and that is how you die. So if you don’t have it, find it.
+2. Self-sourced momentum will not get you all the way: Things you do to create inner momentum should be seen as a rocket-booster that will get you to escape velocity, after that you have to know how to use & leverage momentum that comes from outside of yourself. → there are only so many vision statement you can write to create a level of conviction that will keep you going to where you need to go.
+3. Pay for the fucking course, but struggle a lil first: twice I hesitated paying for a course for a long time and tried to just get the info I thought I needed to get by watching a couple of free youtube videos. I did this for figma & for designing a good sales process. The Figma course was $500 bucks and it ended up halfing & drastically increasing the speed it took to go from idea to developed for a weekend of my time. The sales course … well do I even have tos ay it. literally 6 hours of my life 3 scripts changed the entire trajectory of our company.

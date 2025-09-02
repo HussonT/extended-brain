@@ -1,0 +1,1 @@
+# Great work is about bringing people with aligned values & complementary talent together

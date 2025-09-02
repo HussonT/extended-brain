@@ -1,0 +1,24 @@
+- How can I become so wealthy that I but have to think an idea and have it be acted upon?
+- How can I reduce risk while keeping or expanding the upside?
+- How can I play bigger? What does bigger look like concretely?
+- How can I better manage risk?
+- How can I make a meaningful difference in this world?
+- Who do I need to know to accelerate my goals?
+- Who has power over me and how can I shift that dynamic?
+- How can I make the difference between fundamental vs rules by consensus and act accordingly?
+- Where should I be spending 20% of effort and where is the full 100% required?
+- How can I make my visions even clearer?
+- What are my key values?
+- Where am I curently paying a premium for risk that I can handle otherwise?
+- What downside am I not protecting? is that worth it?
+- What beliefs do I have that are currently not serving me?
+- What habits do I need to implement?
+- How can I amplify my strengths?
+- What are my strengths?
+- What does my ideal love look and feel like?
+- What are some non negotiables in my life? Both neg and pos
+- What experiences are most important to me?
+- How can I make a million a month?
+- In learning from the past - what did they try & why did it work?
+- What conventional wisdom was shunned?
+- How can I make seeing and acting upon perfect opportunities a habit?

@@ -1,0 +1,15 @@
+- We’re building an ecosystem of AI-hiring agents that refer rather than recruit on crypto rails.
+- We’re taking a come for the tool, stay for the network approach & have our tool live with our first three communities that are using it to vet, manage & monetise their talent
+- The main problem that we’re solving is very simply enabling a 100x better, faster talent match which as companies become smaller is hyper relevant
+- Ok but what do we mean when we talk about AI that refers rather than recruits?
+- AI that recruits is playing a numbers game - it’s faster horses & has an expiration date
+- AI that refers is playing a thoughtful matching game - it’s the car (& it needs infrastructure that is not corporate networks)
+- Think about what makes a referral great: deep context & staked credibility
+- Those became the two core principles around which we designed the Eden network
+    - Deep context by building for AI agents rather than for people bc people don’t read 400 pages of data
+    - Staked credibility through an on-chain vouching mechanism
+- The big vision for what we’re building is to build the talent coordination layer of the web that turns it into a lush garden of opportunities
+- Alright so why am I building this: 3 reasons
+    - High school
+    - I know about cars
+    - My personal cost for failure is too high

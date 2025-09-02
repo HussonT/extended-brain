@@ -1,0 +1,18 @@
+---
+title: "The United Slate"
+author: Sam Altman
+source: https://blog.samaltman.com/the-united-slate
+date_scraped: 2025-08-06
+word_count:      433
+tags: [sam-altman, essays]
+---
+
+# The United Slate
+
+## The United Slate
+I would like to find and support a slate of candidates for the 2018 California elections, and also to find someone to run a ballot initiative focused on affordable housing in the state.  A team of aligned people has a chance to make a real change.
+I believe in creating prosperity through technology, economic fairness, and maintaining personal liberty.
+We are in the middle of a massive technological shift—the automation revolution will be as big as the agricultural revolution or the industrial revolution.  We need to figure out a new social contract, and to ensure that everyone benefits from the coming changes.
+Today, we have massive wealth inequality, little economic growth, a system that works for people born lucky, and a cost of living that is spiraling out of control.  What we've been trying for the past few decades hasn't been working—I think it's time to consider some new ideas.
+More information about the principles and policies I believe in is at the link below.
+http://unitedslate.samaltman.com

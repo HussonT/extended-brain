@@ -1,0 +1,26 @@
+“You’re a fucking pussy” is a sentence that I tell myself about once a week.
+
+It’s followed by a feeling that sits between cringe and anger directed at myself. It lives in my stomach and occasionally spreads out in to a cold sweat or a jolt across my whole body. It grows the more I do not take action to re-align with proof that I am not a fucking pussy.
+
+It’s not looking too good for my startup. Since the start - I’ve promised investors monthly updates. When things were going, not necessarily going well, but they were going, I would average a bi-monthly update. I’d commit in the letter to making these updates monthly - a month would go by and boom, I’d miss the deadline. By a day. A week. I’d check in with myself to see if I have anything update worthy. A lot of things would have gone great that week. And a lot of things wouldn’t have. I think to myself: if I hit this number, the update will be better. I end up pivoting. The update would have been obsolete. So now I’m two months in and my first update would be about the new thing - making it feel like there was no progress.
+
+Lose, lose, lose. The investors aren’t updated on all the work that we did. Nor on the things that we learned. And I spiral into a triple self-attack where I lose more confidence that I would have if I just stuck to updating - because then at least have proof that I was doing what I said I was going to do.
+
+I’ve been doing a ton of reflecting and this one simple promise that I wasn’t able to keep had a huge snowball effect. Which made me wonder, why was I not able to keep it? It’s not incompetence - I can sit down for 1h and whenever I wrote investor updates, they were good. It’s out of fear. Fear that investors would call me out. Would find out that I’m a dumb PoS. Would stop seeing me as this smart driven guy that they invested in. Result of not sending the message is worse though: I stopped seeing myself as all those things before my investors do/did - which makes the previous inevitable.
+
+So I was like, ok - what’s the antidote? And I found the answer in an unlikely place.
+
+Over the weekend I was in Copenhagen for Matti & Bene’s wedding. In Copenhagen - you jump in the canal. I’d worked up the courage to do backflips in the past. But here I got stopped again by fear. Followed about 5 mins later by that voice again. “You’re a fucking pussy.” The more I thought about it, the louder that voice became, the more fear I had of all the things that were in my head rather than the actual thing in front of me.
+
+On the last day - I met this girl in the sauna. We were going to jump in the water from high up. There was that voice again. Every time I was about to jump, boom - that voice. The longer I waited, the harder it became. And then I just went. And ofc, it went great. As soon as I jumped - silence. No fear. A slight feeling of elation and boosted self-confidence at the end of it. I got that girls number if you were wondering.
+
+Later I realized that those feelings were the exact same feelings I was feeling when I missed my deadlines. Somewhere between cringe and anger at myself in my stomach with little cold-sweats and occasional jolts. And I started thinking about how I’d worked up the courage to do flips in the past. And that’s where I caught myself.
+
+Courage is the antidote to fear. However the longer you wait, the more fear you have to work through. So if you think you need to “work up courage” you’re too fucking late. So I started re-reading “courage is calling” by Ryan Holiday. And there’s too many take-aways to write down here - but there’s one big, concrete one that’s the big aha for me.
+
+1. **Courage is not worked up at the moment you need it - it is cultivated long before you do.** For the things ****worth doing, you often need a bunch of courage-energy. If you haven’t got it ready - you’re gonna miss your window to act. It works like a battery. So the more fear you build up, the more power you need.
+2. **There seems to be a hack if you act fast.** The amount of courage-energy you need to act grows with the fear you let yourself build up in your head. You need almost 0 courage-energy if you just act super fast. In theory, if you train yourself to act the moment you start feeling an inkling of fear - you need almost 0 courage. I believe that these are the people we call courageous. They’ve developed the habit to act fast when they feel fear.
+
+So I started talking to girls that are way out of my league when in line in the store. Scares the shit out of me, but that’s usually a good indicator. I started asking for discounts - not because I want them, but to cultivate courage in very small things. I’m gradually finding more things that scare me and developing the reflex to not think about them but just lean into them. I’m working of reducing the time from feeling the fear to action to near zero. I’ll keep doing the little things to have a little reservoir of courage ready and I’ll keep looking for the bigger things to lean into to train myself to act faster and faster with the idea of building proof for myself that I’m someone who acts fast when fear arises.
+
+I’ve set a deadline to send an investor update by the end of this week, I’ll let you know if I’m a pussy next week.

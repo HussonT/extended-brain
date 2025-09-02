@@ -1,0 +1,17 @@
+My first hire was a total fiasco. I was building my first company that seemed like it finally was about to have some legs and was definitely trying to do too much. I got excited about hiring somebody. I got a referral for a guy - barely knowing how to interview, I just vibed with him. I thought he was a great, easy going - smart dude. What more could I want? I extended an offer but last minute I decided to check with one of my mentors. Since the impact on the business would be huge and me never having hired somebody, I felt like I should probably have one of the adults give their take.
+
+The guy had just come back from a holiday - and I told him I would like him to chat to one of my mentors before we finalise the contract - just as a formality. After that call, my mentor said that - no matter what, it was my call, but that he thought I shouldn’t hire this person. Turns out I jumped both feet first in every single hiring trap: Affinity Bias, Halo Effect, Similarity Bias, Confirmation Bias - if the bias existed, I was affected by it. My mentor told me that if I decide to go ahead and hire this person - It would have the opposite of what I was trying to accomplish: all the time I was hoping to free up would be spent training this person - as they had no prior experience in the space that we were operating in. That’s time & energy I didn’t have. I ended up pulling the contract - of course, he threatened to sue. We ended up paying a month’s worth of salary for no work. He had already quit his job and had to quickly look for something else. And I was left with a huge feeling of guilt yet believing I did the right thing for the business.
+
+That was my trial by fire way where I I got to learn that hiring well is hard AF. Getting the right person on the right project for the right reasons is the biggest impact work you can do in building any type of successful business - but also the hardest. It would take me another bunch of stabs, experimenting with different processes, getting help from recruiters, that I realised that the process is just flawed. But if you’re used to cleaning your toilet with a toothbrush your whole life, it’s sometimes hard to imagine that there might be a better way of doing things.
+
+The way we hire hasn’t seen meaningful innovation since LinkedIn.
+
+Life’s too short to spend 1/3 of it doing something you have a hard time getting excited about. And yet, for many of us, the reality is that we live for the weekend or the yearly holidays. 85% of people are emotionally disengaged at work which comes with an estimated 7 trillion USD in lost productivity - not to mention the opportunity cost & loss in global life-satisfaction.
+
+> “we don’t get anywhere in this life without work. But we can get somewhere magical when we do the kinf of work that doesn’t even feel like work.” - from Discipline is destiny by rain holiday
+
+The three fundamental problems with hiring can be summed up as flawed signals lead to a very expensive information asymmetry problem that makes it that the incentives are skewed and lead to a sub-optimal dominant strategy when repeatedly playing the “hiring game”.
+
+1. Flawed signals: We use logos as proxies for ability, we’re full of bias, the first line of signals
+2. Expensive information asymmetry problem
+3. A sub-optimal game to solve it: The way the incentives set-up dominant strategy of the hiring game has a suboptimal equilibrium.

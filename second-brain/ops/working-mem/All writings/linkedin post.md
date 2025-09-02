@@ -1,0 +1,1 @@
+Would love to chat as we're currently developing a tool that lets you plug in our talent marketplace as if it were a natural extension of your current workforce. Think context-aware slack bot/kanban board automation that can make highly relevant suggestions for the right person, right project, right reasons and lets you "arbitrage" internal & external talent.

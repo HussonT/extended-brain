@@ -1,0 +1,25 @@
+- why does crypto solve this problem
+    - Talent matching cannot be solved purely algorithmically
+        - Previous experience building an AI based talent matching tool for internships
+        - Linkedin & classic job-boards with spam as dominant strategy
+        - Trust is very hard to solve for without skin in the game mechanics - 5* rating on upwork aint it
+    - Mechanism design provides important tools that allow us to embed a socio economic layer into our algorithms - bc talent matching can not be solved purely algorithmically.
+        - The idea of being able to assign a relative value to a skill
+        - Embedding a talent prediction market to provide additional indicators that help reduce uncertainty in the hiring problem
+        - Design incentive mechanisms that reduce the impact of bias by incentivising finding hidden gems
+- What is the path to /incentive for talent to put more data on chain vs existing places (attestations + financial incentive)?
+    - We’re not trying to be another Identity protocol and we’re looking to capture and improve already existing behaviour and make it more robust & credible
+        - Endorsements: adding a skin in the game mechanism is key to making it credible
+            - Reciprocity
+            - Recognition/status
+            - Financial incentive
+    - SEO for people - we’ll prioritise on chain mechanism enabled as more powerful “SEO optimizers” for your tlaent profile
+    - We’re mapping & interpreting already existing credentials & on-chain tools to a per skill credibility score + overall credibility score. Using graph convolutional neural networks to create a dynamically updating ranking of “credibility” - kind of like “what gives the top result in your search”
+- How are on chain attestations more trustless than existing solutions? (self claimed vs verified certifications/actions)
+    - Verifiability of provenance is key - we trust a diploma from harvard in a different way than we trust a diploma from a community college.
+    - We need to be able to map the context of the endorsement to its place of origin beyond shadow of a doubt
+    - Ideally there is a skin in the game mechanic involved - referrals work because the referer has social skin in the game.
+- What data can be onramped to be machine interpretable (“lead a team of 10”, “launched a product that did 10m GMV” etc,)? how does this data get onramped? -- specifically here thinking about roles which are more subjective to hire for than devs with more binary criteria
+    - There’s two sides to this - it doesn’t all need to be machine interpretable as there are two things users query on - context & signal/trust
+        - Lead a team of 10 can be queried & summarised in relation to a context through the LLM
+        - Our LLM also gives this to our GCCN that processes it with the comparative credibility score of similar profiles - which again adds to that “SEO” for people - the strength of that signal can be boosted by other people vouching that this happened or proof of collaborations that are added

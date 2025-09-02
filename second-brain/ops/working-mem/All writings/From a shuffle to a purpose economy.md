@@ -1,0 +1,4 @@
+---
+tags:
+  - Future-of-Work
+---

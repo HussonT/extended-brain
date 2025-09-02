@@ -1,0 +1,22 @@
+> [!important] sources: richard rumelt | good strategy, bad strategy
+
+- [ ] Does not contain fluff
+- [ ] Does not mistake goals for strategy
+- [ ] Does not fail to face/clearly define the problem
+- [ ] Does not have Irrelevant/vanity metric based, bad strategic objectives
+- [ ] Contains all the kernel elements of a great strategy:
+    - [ ] Contains a diagnosis: This is a clear-eyed assessment of the challenge or problem being faced. It simplifies complex realities by identifying the critical aspects of the situation, a little story that hits the main points of the problem/challenge to make discussions around them more accessible.
+    - [ ] Contains a clear guiding policy:  This is an overall approach or method for dealing with the challenges identified in the diagnosis. It provides direction without specifying all the details.
+    - [ ] Contains Coherent Actions: These are coordinated steps designed to carry out the guiding policy. They are feasible, coordinated policies, resource commitments, and actions that work together to accomplish the strategy
+- [ ] Create attainable proxy goals
+- [ ] Check what sources of power you can use
+    - [ ] Leverage (what are leverage points that will 10x the impact by using them)
+    - [ ] Proximate objectives (what’s a goal that’s clearer & easier to attain that will make the overall goal also easier & clearer to attain)
+    - [ ] Chain link systems (network effects make you stronger, having a weak link makes you as strong as the weakest link)
+    - [ ] Design (how much further ahead can you get by thinking through the problem & designing a way to overcome it?)
+    - [ ] Focus (usually you can only do one thing well at the time - what’s the one most deserving of focus?)
+    - [ ] Growth (how can a future state w assumed growth put you in a more powerful position - uber & market size for example)
+    - [ ] Advantage (what natural advantages - talents, hills,… do you have at your disposal)
+    - [ ] Dynamics
+    - [ ] Inertia & Entropy
+- [ ]

@@ -1,0 +1,11 @@
+- Who is good at what you're an expert at that shouldn't be? That isn't built for it?
+- Who are the most controversial athletes in sport? Why?>
+- Who are the most impressive lesser known teachers?
+- What makes you different?
+- Who trained you or influenced you?
+- Have you trained others to do this? Have they replicated your results?
+- What are the biggest myths you see in your field?
+- What are the biggest wastes of time?
+- What are some of your favourite insturctionoal videos/books on the subject?
+- If people would want to teach themselves, what would you suggest they use?
+- If you were to train me for 12 weeks for a competition and had a million dollars on the line - what would the training be? What if it were 8 weeks?

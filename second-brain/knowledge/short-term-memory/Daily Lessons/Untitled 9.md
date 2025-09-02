@@ -1,0 +1,6 @@
+---
+Date: 2024-03-28
+---
+1. It’s impossible to start a great company without great people - the best way to attract great people is to be great yourself. Great people want to work with great people. If you can’t attract the people that you want to attract, that means you’re not great enough yourself yet. What can you do to become more attractive as a business partner?
+2. There’s two types of knowledge - strive to build the real kind of knowledge. The hard thing about real knowledge is that you have to actually do the work - no book, course or mentor can really make you great at building an org that could one day impact a billion+ people just like no book, course or mentor can make you great at playing the piano - you can only become great through practice.
+3. Especially when you’re young, the real cost is opportunity cost. I’m optimising for building a billion+ business but that means that any business that is likely just going to be a $million business i’m either pivoting or even killing.

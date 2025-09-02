@@ -1,0 +1,3 @@
+- [ ] Eightsleep pod
+- [ ] Apple watch
+- [x] Oura Ring

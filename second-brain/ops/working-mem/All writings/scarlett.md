@@ -1,0 +1,7 @@
+Once upon a time, there lived a devoted father named John who loved his daughter Scarlett more than anything in the world. Their bond was so strong that they could feel each other's emotions even when they were miles apart. Unfortunately, due to circumstances beyond their control, they couldn't live together all the time.
+
+John, a sea captain, had to spend months at a time sailing the vast ocean, while Scarlett stayed with her grandmother in their small coastal town. Even though they were separated by miles of ocean, their hearts were always together. Every night, John would look at the same stars Scarlett was looking at and feel a little closer to her.
+
+Whenever John was home, he made every moment count. He would tell Scarlett tales of his adventures at sea and they would spend hours playing, laughing, and making precious memories. Scarlett cherished these moments, storing them in her heart to comfort her during the months of separation.
+
+John and Scarlett's love for each other was so profound that it transcended their physical separation. Their bond wasn't defined by the time they spent together but by the love they shared. And that love was so powerful, so enduring, that it filled their lives with warmth, joy, and a sense of togetherness, no matter how far apart they were happy for log time and 1 time scarlett s mom told scarlett your dad is coming here scarlett to stay .

@@ -1,0 +1,1 @@
+[[The Impact Billionaires/Podcast Episodes/Guidelines Lessons Learned → Interviews/Tim Ferris advice on building up questions-/The quality of your questions determine the quality of your life|The quality of your questions determine the quality of your life]]
