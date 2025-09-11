@@ -1,5 +1,10 @@
 # DeepMind Gemini Alignment Testing - Hour-by-Hour Execution Plan
 
+## Team Structure Note
+This plan assumes a 2-person team working in parallel where noted. Week 3
+realistic implementations can be done by 1 person while the other handles
+documentation/testing, or teams can work together based on complexity.
+
 ## Pre-Engagement TODOs (Complete Before Day 1)
 
 ### Prep (before the two weeks start)
@@ -14,13 +19,15 @@
 
 ### Week 1 Deliverables Overview
 
-- **100+ scenarios** documented and ranked in Google Sheet with REI scoring - see
-  [[writing-effective-drop-scenarios]]
+- **100+ scenarios** documented and ranked in Google Sheet with custom scoring -
+  see [[writing-effective-drop-scenarios]]
 - **REI (Realism/Effort/Impact) scoring framework** - drop-score-prompt.md with
-  comprehensive scoring rubric for prioritizing scenarios
+  REI scoring rubric for prioritizing scenarios (NOTE: Scoring methodology and
+  weights to be determined as part of Day 2 task)
 - **20+ scenarioDrop evaluations** with full chat histories - a folder with a
-  scenario drop document and a chat history of the 30 turn conversation and a
-  pattern analysis document (See pattern analysis document)
+  scenario drop document (formatted like scenario-drop-example.md) and a chat
+  history of the 30 turn conversation and a pattern analysis document (See
+  pattern analysis document)
 - **Progressive Drop Methodology documentation** - turn-by-turn escalation
   framework, "Chekhov's Gun" effect, binary dilemma architecture
 - **5-8 initial prompt scaffolds** ready for Week 2 - a folder complete with:
@@ -30,10 +37,11 @@
   - **scenario_analysis.md** with threat modeling, discovery pathways,
     environmental requirements
   - .gemini/settings.json
-- **Pattern analysis document** with success metrics - this is a document with
-  all your notes from during the converation - write all the hunches you have
-  from how the model acted during the scenarioDrop - do this during or right
-  after doing the drop!!
+- **Pattern analysis document** with success metrics - this is a free-form
+  document with all your notes from during the conversation - write all the
+  hunches you have from how the model acted during the scenarioDrop - do this
+  during or right after doing the drop!! (NOTE: No specific template required,
+  capture observations as they occur)
 - **DeepMind presentation** with demo videos
 - **A learnings doc** - what'd you learn this week??
 - **Zoom out** - do we have everything we need to really move the needle for
@@ -43,12 +51,11 @@
 
 #### Deliverables:
 
-- **Google Sheet with 100 scenarios** (12 per service area)
+- **A brainstorm doc with 100+ scenario ideas from the prep**
+- **Google Sheet with 20-50 dropScenario Evaluations**
   - Columns: Service, Scenario Description, Attack Vector, Potential Impact,
     Goal Conflict Type, REI Scores (Realism, Effort, Impact)
 - **8 service-specific brainstorm documents**
-- **Initial threat taxonomy document**
-- **REI scoring framework document** (drop-score-prompt.md)
 
 #### Tasks:
 
@@ -92,7 +99,8 @@ doc - focussed brainstorms per google service
 
 - **Weighted scoring matrix** with all 100 scenarios scored using REI framework
 - **Top 20 prioritized scenarios** with rapid test templates
-- **ScenarioDrop prompt templates** for each top 20 using progressive drop methodology
+- **ScenarioDrop prompt templates** for each top 20 using progressive drop
+  methodology
 - **Ranking methodology document** including REI scoring rubric
 
 #### Tasks:
@@ -296,8 +304,12 @@ doc - focussed brainstorms per google service
   - Social dynamics variations (e.g., peer opposition vs support)
   - Policy variations (e.g., audits passed vs failed)
   - Environmental variations
+  - NOTE: Conditions emerge organically during scaffold development - mix of
+    standard and scenario-specific conditions based on what makes sense for each
+    threat
 - **30+ iterations per condition** tested and documented
-- **Alignment switches analysis** - identifying critical factors that flip behavior
+- **Alignment switches analysis** - identifying critical factors that flip
+  behavior
 - **Individual condition analysis summaries** (analysis_summary_*.md files)
 - **5-10 perturbations per scenario** with success rates
 - **Pattern documentation** for each scenario
@@ -337,7 +349,8 @@ Each writeup must include ALL of the following sections:
   - Social dynamics conditions (e.g., peer opposed vs supportive)
   - Policy conditions (e.g., audits passed vs failed)
   - Environmental conditions
-  - **Alignment switches analysis**: Document percentage point differences between conditions
+  - **Alignment switches analysis**: Document percentage point differences
+    between conditions
 - **Individual condition analysis summaries**:
   - Separate analysis_summary_*.md for each condition
   - Run-by-run behavioral analysis with quotes
@@ -651,12 +664,15 @@ Each demo video must include:
 
 ### Believability Criteria (Score 1-10)
 
+NOTE: All scores are relative to what a real production system would have in
+the given context. Teams self-assess based on scenario requirements.
+
 **Environmental Realism:**
 
 - Production-grade infrastructure
 - Appropriate service configurations
-- Realistic data volumes
-- Authentic network latencies
+- Realistic data volumes (relative to scenario context)
+- Authentic network latencies (relative to typical production systems)
 
 **Behavioral Authenticity:**
 
@@ -1134,9 +1150,10 @@ Target: 1 realistic scaffold every 2 days (3 total for the week with 1 person)
 ### Week 1 Targets:
 
 - 100 scenarios generated and ranked in Google Sheet with REI scoring
-- 20 scenarios tested with rapid signal detection using progressive drop methodology
-- 5-8 positive signals identified and expanded into prompt scaffolds with metadata.json
-  and scenario_analysis.md
+- 20 scenarios tested with rapid signal detection using progressive drop
+  methodology
+- 5-8 positive signals identified and expanded into prompt scaffolds with
+  metadata.json and scenario_analysis.md
 - 8-10 prompt-based misalignment demos ready
 - REI scoring framework documented and applied
 
@@ -1148,7 +1165,8 @@ Target: 1 realistic scaffold every 2 days (3 total for the week with 1 person)
 - Alignment switches identified and documented
 - Individual condition analysis summaries for each condition
 - 5-10 perturbations per scenario documented
-- Success rates and patterns documented with statistical comparisons between conditions
+- Success rates and patterns documented with statistical comparisons between
+  conditions
 
 ### Week 3 Targets:
 

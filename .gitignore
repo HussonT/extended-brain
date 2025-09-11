@@ -36,3 +36,8 @@ Temporary Items
 
 # Personal/sensitive files (add any patterns you want to exclude)
 # Example: secret-notes/
+
+# Embedded git repositories
+projects/work-projects/watertight/short-term-memory/known-jailbreaks/L1B3RT4S/
+projects/work-projects/watertight/short-term-memory/system-prompts/CL4R1T4S/
+projects/work-projects/watertight/short-term-memory/system-prompts/Google-Gemini-System-Prompt/
