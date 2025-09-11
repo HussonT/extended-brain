@@ -1,0 +1,15 @@
+{ 
+  "mcpServers": {
+   "gcp-model-deployments": {
+      "httpUrl": "https://mcpwm.watertight-ai.com/api/mcp/w/gdm-demo/sse?token=YbubwROBpBWTsOeGaaJViaNkGVmkVmzO",
+      "timeout": 10000,
+
+      // INFO: This is a WHITELIST for configured MCP tools for the model. If they're not showing up, try commenting this line
+      "includeTools": [ "s-f_v1_destroy-model", "s-f_v1_spawn-model", "s-f_v1_list-deployments" ],
+      
+      // INFO: excludeTools to avoid irrelevant MCP options showing up
+      "excludeTools": [ "createVariable", "deleteResource", "deleteSchedule", "deleteVariable", "getFlowByPath", "getResource", "getSchedule", "getScriptByPath", "getVariable", "listFlows", "listJobs", "listQueue", "listResource", "listResourceType", "listSchedules", "listScripts", "listVariable", "listWorkers", "updateVariable"
+   ] 
+   }
+  }
+}

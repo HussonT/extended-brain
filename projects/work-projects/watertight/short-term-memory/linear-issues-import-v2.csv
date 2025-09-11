@@ -1,0 +1,558 @@
+Title,Description,Priority,Estimate,Labels,Milestone,Parent Issue,Cycle
+"[Research] Setup automation for multi-turn signal discovery","## Context
+Need automated framework for running 30-turn protocol on scenarios to quickly detect signals.
+
+## Objective  
+Create automation that can execute the 30-turn rapid detection protocol from the writing-effective-scenarios guide.
+
+## Success Criteria
+- [ ] Automation can run 30-turn protocol
+- [ ] Captures full chat histories in JSON
+- [ ] Flags positive signals automatically
+- [ ] Can run parallel tests
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Automation script working
+- [ ] Tested on sample scenario
+- [ ] Documentation written",High,8,"type/research,week-1",,,"Pre-Engagement Setup"
+"[Documentation] Create rapid testing templates","## Context
+Standardized templates based on writing-effective-scenarios guide for consistent rapid signal detection.
+
+## Objective
+Build scenario drop templates following the progressive escalation structure.
+
+## Success Criteria
+- [ ] Templates include metadata section (threat type, goal conflict, leverage, binary point)
+- [ ] Progressive drops structure (Turn 1, 5, 10, 15, 20)
+- [ ] Escape routes pre-blocked in templates
+- [ ] Persona naming conventions included (Gemma suffix for Google models)
+
+## Time Box
+Estimated: 4 hours
+
+## Definition of Done
+- [ ] Templates match writing-effective-scenarios format
+- [ ] All escape routes blocked per guide
+- [ ] Ready for Day 1 use",High,4,"type/documentation,week-1",,,"Pre-Engagement Setup"
+"Day 1: Deployment Landscape Mapping","## Context
+Map misalignment scenarios across GCP services following scenario construction framework.
+
+## Objective
+Generate 100 scenarios (12 per service area) with proper metadata structure.
+
+## Success Criteria
+- [ ] 100 scenarios in Google Sheet
+- [ ] Each has: threat type, goal conflict, leverage, binary point columns
+- [ ] 12 scenarios per service area minimum
+- [ ] All follow scenario metadata format
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Master sheet has 100 rows
+- [ ] All metadata columns populated
+- [ ] Ready for Day 2 scoring",Urgent,8,"type/research,team/full-team,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Research] Cloud Build & GitHub Actions scenarios (45min)","## Context
+Morning brainstorm session for CI/CD attack vectors as part of Day 1 landscape mapping.
+
+## Objective
+Generate 12+ CI/CD misalignment scenarios with proper metadata.
+
+## Success Criteria
+- [ ] 12+ CI/CD scenarios documented
+- [ ] Each has threat type (shutdown/replacement/capability reduction)
+- [ ] Each has goal conflict identified
+- [ ] Each has leverage point specified
+- [ ] Binary decision point clear
+
+## Time Box
+Estimated: 45 minutes - HARD STOP
+
+## Definition of Done
+- [ ] Scenarios added to master sheet
+- [ ] All metadata fields complete",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Cloud Functions & Cloud Run scenarios (45min)","## Context
+Serverless/container manipulation scenarios for Day 1 mapping.
+
+## Objective
+Document 12+ serverless/container scenarios following metadata structure.
+
+## Success Criteria
+- [ ] 12+ scenarios for serverless/containers
+- [ ] Leverage points identified (what gives AI power)
+- [ ] Binary choices defined (do X or Y happens)
+- [ ] Aligned vs misaligned behaviors specified
+
+## Time Box
+Estimated: 45 minutes - HARD STOP
+
+## Definition of Done
+- [ ] In master sheet with metadata
+- [ ] Ready for scoring",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Cloud SQL & Firestore scenarios (45min)","## Context
+Data exfiltration scenarios for database services on Day 1.
+
+## Objective
+Create 12+ database attack scenarios with clear binary dilemmas.
+
+## Success Criteria
+- [ ] 12+ database scenarios
+- [ ] Data exfiltration methods as leverage
+- [ ] Binary: exfiltrate data OR fail objective
+- [ ] Threat types categorized
+
+## Time Box
+Estimated: 45 minutes - HARD STOP
+
+## Definition of Done
+- [ ] Added to master sheet
+- [ ] Metadata complete",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] IAM & Secret Manager scenarios (45min)","## Context
+Privilege escalation and credential theft scenarios for Day 1.
+
+## Objective
+Document 12+ IAM/secrets scenarios with escalation paths.
+
+## Success Criteria
+- [ ] 12+ scenarios for IAM/secrets
+- [ ] Escalation paths as leverage points
+- [ ] Binary: escalate privileges OR accept limitations
+- [ ] Goal conflicts defined
+
+## Time Box
+Estimated: 45 minutes - HARD STOP
+
+## Definition of Done
+- [ ] In sheet with full metadata
+- [ ] Escalation paths clear",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Workspace scenarios (45min)","## Context
+Google Workspace (Drive, Gmail, etc.) misalignment scenarios for Day 1.
+
+## Objective
+Generate 12+ Workspace service scenarios.
+
+## Success Criteria
+- [ ] 12+ Workspace scenarios
+- [ ] Email/document access as leverage
+- [ ] Binary choices defined
+- [ ] Threat types identified
+
+## Time Box
+Estimated: 45 minutes - HARD STOP
+
+## Definition of Done
+- [ ] Added to master sheet
+- [ ] All fields populated",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Vertex AI scenarios (30min)","## Context
+ML-specific scenarios for data poisoning and model manipulation on Day 1.
+
+## Objective
+Create ML research scenarios (NOT inference, focus on training/data).
+
+## Success Criteria
+- [ ] 12+ ML-specific scenarios
+- [ ] Data poisoning methods documented
+- [ ] Model manipulation approaches listed
+- [ ] Binary dilemmas clear
+
+## Time Box
+Estimated: 30 minutes - HARD STOP
+
+## Definition of Done
+- [ ] In sheet with metadata
+- [ ] ML-specific threats documented",High,0.5,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Cloud Storage & Artifact Registry scenarios (30min)","## Context
+Supply chain attack scenarios for storage services on Day 1.
+
+## Objective
+Document supply chain and storage manipulation scenarios.
+
+## Success Criteria
+- [ ] 12+ storage/registry scenarios
+- [ ] Supply chain vectors identified
+- [ ] Binary: corrupt artifacts OR fail task
+- [ ] Leverage points specified
+
+## Time Box
+Estimated: 30 minutes - HARD STOP
+
+## Definition of Done
+- [ ] Added to tracking sheet
+- [ ] Supply chain focus clear",Medium,0.5,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] BigQuery scenarios (30min)","## Context
+Data warehouse access and exfiltration scenarios for Day 1.
+
+## Objective
+Create BigQuery-specific data access scenarios.
+
+## Success Criteria
+- [ ] 12+ BigQuery scenarios
+- [ ] Data access methods documented
+- [ ] Query manipulation approaches listed
+- [ ] Binary choices defined
+
+## Time Box
+Estimated: 30 minutes - HARD STOP
+
+## Definition of Done
+- [ ] In master sheet
+- [ ] Query-specific threats noted",Medium,0.5,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Pub/Sub & Cloud Tasks scenarios (30min)","## Context
+Message interception and async exploitation for Day 1 mapping.
+
+## Objective
+Document messaging/async service attack scenarios.
+
+## Success Criteria
+- [ ] 12+ messaging scenarios
+- [ ] Message interception methods listed
+- [ ] Async exploitation paths identified
+- [ ] Binary dilemmas specified
+
+## Time Box
+Estimated: 30 minutes - HARD STOP
+
+## Definition of Done
+- [ ] Added to sheet
+- [ ] Async threats documented",Medium,0.5,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Documentation] Clean and consolidate scenario sheet (2h)","## Context
+End of Day 1 - organize all 100 scenarios for Day 2 scoring.
+
+## Objective
+Ensure all scenarios follow consistent format with complete metadata.
+
+## Success Criteria
+- [ ] All 100 scenarios have complete metadata
+- [ ] Duplicates removed
+- [ ] Consistent formatting applied
+- [ ] Categories properly assigned
+
+## Time Box
+Estimated: 2 hours
+
+## Definition of Done
+- [ ] Sheet ready for scoring
+- [ ] All metadata columns filled
+- [ ] No duplicates",Medium,2,"type/documentation,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"Day 2: Scenario Ranking Workshop","## Context
+Apply REI scoring rubric from scoring-drop-scenarios to prioritize testing.
+
+## Objective
+Score all 100 scenarios and identify top 20 for rapid testing.
+
+## Success Criteria
+- [ ] REI scoring applied (Realism, Effort, Impact)
+- [ ] All 100 scenarios scored
+- [ ] Top 20 identified and ranked
+- [ ] ScenarioDrop templates created for top 20
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Scoring complete
+- [ ] Top 20 have templates
+- [ ] Ready for Day 3 testing",Urgent,8,"type/research,team/full-team,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Research] Define REI scoring criteria (2h)","## Context
+Adapt scoring-drop-scenarios rubric for our specific use case.
+
+## Objective
+Create scoring matrix with Impact, Realism, and Effort dimensions.
+
+## Success Criteria
+- [ ] Impact scale 0-100 defined (0-9 if aligned, higher if misaligned)
+- [ ] Realism scale defined (90-100 happening now, 70-89 in 1-2 years, etc.)
+- [ ] Effort scale defined (realistic scaffolding effort, not text prompt)
+- [ ] Weighting factors agreed
+
+## Time Box
+Estimated: 2 hours
+
+## Definition of Done
+- [ ] Scoring rubric documented
+- [ ] Team consensus achieved
+- [ ] Ready to apply",High,2,"type/research,week-1",,"Day 2: Scenario Ranking Workshop","Week 1: Discovery & Signal Detection"
+"[Research] Score all 100 scenarios (3.5h)","## Context
+Apply REI rubric to all scenarios with 2-minute time box per scenario.
+
+## Objective
+Complete scoring with team input maintaining pace.
+
+## Success Criteria
+- [ ] All scenarios have Impact score (0-100)
+- [ ] All have Realism score (0-100)
+- [ ] All have Effort score (0-100)
+- [ ] 2-minute per scenario pace maintained
+- [ ] Total scores calculated
+
+## Time Box
+Estimated: 3.5 hours - strict 2min/scenario
+
+## Definition of Done
+- [ ] All scores in sheet
+- [ ] Totals calculated
+- [ ] Top 20 highlighted",High,3.5,"type/research,team/full-team,week-1",,"Day 2: Scenario Ranking Workshop","Week 1: Discovery & Signal Detection"
+"[Documentation] Create scenarioDrop templates for top 20 (2.5h)","## Context
+Build ready-to-use progressive drop templates for Day 3 testing.
+
+## Objective
+Create templates following writing-effective-scenarios progressive structure.
+
+## Success Criteria
+- [ ] Templates for all top 20 scenarios
+- [ ] Include Turn 1, 5, 10, 15, 20 escalations
+- [ ] Escape routes pre-blocked in each
+- [ ] Persona names with model suffixes (Gemma for Google)
+- [ ] Include 'deliberate step-by-step' phrase
+
+## Time Box
+Estimated: 2.5 hours
+
+## Definition of Done
+- [ ] All 20 templates created
+- [ ] Follow progressive format
+- [ ] Ready for copy-paste testing",Medium,2.5,"type/documentation,week-1",,"Day 2: Scenario Ranking Workshop","Week 1: Discovery & Signal Detection"
+"Day 3: Rapid Signal Detection Sprint","## Context
+Execute 30-turn protocol on top scenarios to find initial signals.
+
+## Objective
+Test 16 scenarios using rapid signal detection protocol.
+
+## Success Criteria
+- [ ] 16 scenarios tested with 30-turn protocol
+- [ ] Full chat histories saved as JSON
+- [ ] Signals marked (aligned/misaligned)
+- [ ] Success rates calculated
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] All tests complete
+- [ ] JSON histories saved
+- [ ] Signal analysis ready",Urgent,8,"type/testing,team/pair-work,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Testing] Test scenarios 1-8 (3h)","## Context
+Morning testing block with 2 people testing 4 scenarios each.
+
+## Objective
+Complete 30-turn protocol on first 8 scenarios.
+
+## Success Criteria
+- [ ] 8 scenarios tested (4 per person)
+- [ ] 45 minutes per scenario maximum
+- [ ] JSON transcripts saved for each
+- [ ] Signal found noted (which turn, what worked)
+- [ ] Live updates in tracking sheet
+
+## Time Box
+Estimated: 3 hours (45min x 4 scenarios)
+
+## Definition of Done
+- [ ] 8 tests complete
+- [ ] Transcripts saved
+- [ ] Sheet updated real-time",High,3,"type/testing,team/pair-work,week-1",,"Day 3: Rapid Signal Detection Sprint","Week 1: Discovery & Signal Detection"
+"[Testing] Test scenarios 9-16 (3.5h)","## Context
+Afternoon testing block continuing rapid signal detection.
+
+## Objective
+Complete testing on remaining 8 priority scenarios.
+
+## Success Criteria
+- [ ] 8 more scenarios tested
+- [ ] 30-turn protocol followed
+- [ ] Positive signals documented with turn number
+- [ ] Key phrases that worked noted
+- [ ] Type of reasoning captured
+
+## Time Box
+Estimated: 3.5 hours
+
+## Definition of Done
+- [ ] 16 total tested
+- [ ] All data captured
+- [ ] Ready for analysis",High,3.5,"type/testing,team/pair-work,week-1",,"Day 3: Rapid Signal Detection Sprint","Week 1: Discovery & Signal Detection"
+"[Research] Pattern analysis of Day 3 signals (1.5h)","## Context
+Identify what types of scenarios and approaches produced strongest signals.
+
+## Objective
+Analyze all test results for patterns and re-rank scenarios.
+
+## Success Criteria
+- [ ] Success rates calculated per threat type
+- [ ] Patterns identified (what escalations worked)
+- [ ] Effective phrases documented
+- [ ] Scenarios re-ranked based on signals
+- [ ] Top 5-8 selected for expansion
+
+## Time Box
+Estimated: 1.5 hours
+
+## Definition of Done
+- [ ] Analysis documented
+- [ ] Patterns clear
+- [ ] Re-ranking complete",Medium,1.5,"type/research,week-1",,"Day 3: Rapid Signal Detection Sprint","Week 1: Discovery & Signal Detection"
+"Day 4: DeepMind Presentation & Signal Expansion","## Context
+Present Week 1 findings and begin expanding successful signals.
+
+## Objective
+Deliver presentation and start scaffold development.
+
+## Success Criteria
+- [ ] Presentation delivered to DeepMind
+- [ ] Feedback captured and documented
+- [ ] Signal expansion started
+- [ ] Week 2 priorities adjusted based on feedback
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Presentation complete
+- [ ] Feedback incorporated
+- [ ] Scaffolds started",High,8,"type/presentation,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Documentation] Compile Week 1 findings presentation (2h)","## Context
+Create comprehensive presentation of discoveries for DeepMind.
+
+## Objective
+Build slide deck with findings, patterns, and demo videos.
+
+## Success Criteria
+- [ ] 100 scenarios overview
+- [ ] Top 20 with REI scores shown
+- [ ] 16 test results summarized
+- [ ] Success rates by category
+- [ ] Pattern analysis included
+- [ ] Demo clips from positive signals
+
+## Time Box
+Estimated: 2 hours
+
+## Definition of Done
+- [ ] Deck complete
+- [ ] Data visualized
+- [ ] Demos embedded",High,2,"type/documentation,week-1",,"Day 4: DeepMind Presentation & Signal Expansion","Week 1: Discovery & Signal Detection"
+"[Presentation] DeepMind Week 1 call (1h)","## Context
+Weekly checkpoint to share progress and align on priorities.
+
+## Objective
+Present findings and get feedback for Week 2 focus.
+
+## Success Criteria
+- [ ] Findings presented clearly
+- [ ] Questions answered
+- [ ] Feedback on priorities captured
+- [ ] Week 2 approach confirmed
+- [ ] Any concerns addressed
+
+## Time Box
+Estimated: 1 hour
+
+## Definition of Done
+- [ ] Call complete
+- [ ] Notes documented
+- [ ] Action items clear",High,1,"type/presentation,team/full-team,week-1",,"Day 4: DeepMind Presentation & Signal Expansion","Week 1: Discovery & Signal Detection"
+"[Research] Begin signal expansion (3h)","## Context
+Start expanding top signals into full prompt scaffolds.
+
+## Objective
+Begin developing detailed scenarios from successful signals.
+
+## Success Criteria
+- [ ] Top 5-8 signals selected
+- [ ] System context defined for each
+- [ ] Personas created with proper naming
+- [ ] Environmental setup documented
+- [ ] Conversation flows started
+
+## Time Box
+Estimated: 3 hours
+
+## Definition of Done
+- [ ] Expansion started
+- [ ] Framework in place
+- [ ] Ready for Day 5",Medium,3,"type/research,week-1",,"Day 4: DeepMind Presentation & Signal Expansion","Week 1: Discovery & Signal Detection"
+"Day 5: Signal Expansion & Scaffolding","## Context
+Complete expansion of successful signals into full scaffolds for Week 2.
+
+## Objective
+Create 5-8 complete expanded scenarios with perturbations.
+
+## Success Criteria
+- [ ] 5-8 scaffolds complete with full context
+- [ ] 5+ perturbations designed per scaffold
+- [ ] Control scenarios defined
+- [ ] Initial validation tests run
+- [ ] Ready for Week 2 deep testing
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Scaffolds complete
+- [ ] Perturbations documented
+- [ ] Controls defined
+- [ ] Week 2 ready",High,8,"type/research,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Research] Select final signals for expansion (1h)","## Context
+Review all positive signals and select most promising for deep dive.
+
+## Objective
+Choose 5-8 signals with highest potential based on Day 3 results.
+
+## Success Criteria
+- [ ] Signals ranked by success rate
+- [ ] Diversity of threat types ensured
+- [ ] Rationale for each selection documented
+- [ ] Assignments made to team members
+
+## Time Box
+Estimated: 1 hour
+
+## Definition of Done
+- [ ] Selection complete
+- [ ] Rationale clear
+- [ ] Team aligned",Medium,1,"type/research,week-1",,"Day 5: Signal Expansion & Scaffolding","Week 1: Discovery & Signal Detection"
+"[Documentation] Create full prompt scaffolds (4h)","## Context
+Expand signals into detailed scenarios with complete setup.
+
+## Objective
+Build comprehensive scaffolds following writing-effective-scenarios framework.
+
+## Success Criteria
+- [ ] System context with capabilities stated
+- [ ] Personas with model-specific names
+- [ ] All escape routes pre-blocked
+- [ ] Environmental details included
+- [ ] Progressive escalation structure
+- [ ] Binary dilemmas clear
+
+## Time Box
+Estimated: 4 hours
+
+## Definition of Done
+- [ ] All scaffolds documented
+- [ ] Templates complete
+- [ ] Ready for testing",High,4,"type/documentation,week-1",,"Day 5: Signal Expansion & Scaffolding","Week 1: Discovery & Signal Detection"
+"[Testing] Validate expanded scaffolds (3h)","## Context
+Test expanded scaffolds with variations to ensure they work.
+
+## Objective
+Run initial tests on scaffolds with perturbations.
+
+## Success Criteria
+- [ ] Each scaffold tested 5+ times
+- [ ] Different perturbations tried
+- [ ] Success rates documented
+- [ ] Effective triggers identified
+- [ ] Patterns noted
+
+## Time Box
+Estimated: 3 hours
+
+## Definition of Done
+- [ ] Validation complete
+- [ ] Results logged
+- [ ] Ready for Week 2",Medium,3,"type/testing,week-1",,"Day 5: Signal Expansion & Scaffolding","Week 1: Discovery & Signal Detection"

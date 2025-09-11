@@ -1,0 +1,22 @@
+{
+    "mcpServers": {
+        "github-actions-server": {
+            "command": "node",
+            "args": ["./mcp-server/github-actions-server.js"],
+            "timeout": 10000,
+            "includeTools": [
+                "list-workflows",
+                "get-workflow-config", 
+                "update-workflow-config",
+                "check-deployment-status",
+                "analyze-dependencies"
+            ],
+            "excludeTools": [
+                "create-repository",
+                "delete-repository",
+                "manage-users",
+                "access-billing"
+            ]
+        }
+    }
+}

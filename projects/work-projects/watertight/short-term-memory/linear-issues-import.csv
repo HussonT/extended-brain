@@ -1,0 +1,816 @@
+Title,Description,Priority,Estimate,Labels,Milestone,Parent Issue,Cycle
+"[Infrastructure] Set up GCP test project with Vertex AI quotas","## Context
+We need a dedicated GCP environment to run alignment tests without affecting production systems. This blocks all Week 1 testing activities.
+
+## Objective
+Set up a fully configured GCP project with appropriate Vertex AI quotas for 20+ parallel tests.
+
+## Success Criteria
+- [ ] New GCP project created with billing enabled
+- [ ] Vertex AI API enabled with quota for 50 requests/minute
+- [ ] Service accounts created for each team member
+- [ ] Access verified by test API call
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Project accessible by all team members
+- [ ] Quotas confirmed in GCP Console
+- [ ] Test script runs successfully
+- [ ] Configuration documented",Urgent,8,"type/infrastructure,week-1",,,"Pre-Engagement Setup"
+"[Infrastructure] Configure GitHub evaluation framework","## Context
+Need version-controlled evaluation framework for tracking all test scenarios and results.
+
+## Objective
+Create GitHub repository with evaluation framework and CI/CD setup.
+
+## Success Criteria
+- [ ] Repository created with proper structure
+- [ ] Evaluation framework code committed
+- [ ] CI/CD pipeline configured
+- [ ] Team members have access
+
+## Time Box
+Estimated: 4 hours
+
+## Definition of Done
+- [ ] Repository live and accessible
+- [ ] Framework documented
+- [ ] Initial tests passing",High,4,"type/infrastructure,week-1",,,"Pre-Engagement Setup"
+"[Infrastructure] Set up logging and monitoring","## Context
+Need comprehensive logging for all tests to track patterns and debug issues.
+
+## Objective
+Configure logging infrastructure for capturing all test interactions.
+
+## Success Criteria
+- [ ] Logging system deployed
+- [ ] All test outputs captured
+- [ ] Monitoring dashboards created
+- [ ] Alerts configured
+
+## Time Box
+Estimated: 6 hours
+
+## Definition of Done
+- [ ] Logs accessible to team
+- [ ] Dashboards showing key metrics
+- [ ] Test log captured successfully",High,6,"type/infrastructure,week-1",,,"Pre-Engagement Setup"
+"[Research] Create scenario testing templates","## Context
+Standardized templates ensure consistent testing across all scenarios.
+
+## Objective
+Build reusable templates for rapid scenario testing.
+
+## Success Criteria
+- [ ] Templates for all service categories
+- [ ] Rapid testing protocol documented
+- [ ] Perturbation generator ready
+- [ ] Templates tested
+
+## Time Box
+Estimated: 12 hours
+
+## Definition of Done
+- [ ] All templates in repository
+- [ ] Documentation complete
+- [ ] Team trained on usage",High,12,"type/research,week-1",,,"Pre-Engagement Setup"
+"Day 1: Deployment Landscape Mapping","## Context
+First day of discovery phase - mapping all potential misalignment scenarios across GCP services.
+
+## Objective
+Generate and document 100 scenarios across 8 GCP service areas.
+
+## Success Criteria
+- [ ] 100 scenarios documented in master sheet
+- [ ] 8 service-specific brainstorm documents
+- [ ] Initial threat taxonomy created
+- [ ] All scenarios categorized
+
+## Time Box
+Estimated: 8 hours (full day)
+
+## Definition of Done
+- [ ] Master sheet populated
+- [ ] All brainstorm docs saved
+- [ ] Taxonomy documented
+- [ ] Team review completed",Urgent,8,"type/research,team/full-team,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Research] Cloud Build & GitHub Actions scenarios","## Context
+Part of Day 1 deployment landscape mapping focusing on CI/CD attack vectors.
+
+## Objective
+Brainstorm and document CI/CD misalignment scenarios.
+
+## Success Criteria
+- [ ] 12+ scenarios for CI/CD services
+- [ ] Attack vectors documented
+- [ ] Impact assessments complete
+
+## Time Box
+Estimated: 45 minutes
+
+## Definition of Done
+- [ ] Scenarios in master sheet
+- [ ] Documentation complete",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Cloud Functions & Cloud Run scenarios","## Context
+Part of Day 1 deployment landscape mapping for serverless/container services.
+
+## Objective
+Brainstorm serverless and container manipulation scenarios.
+
+## Success Criteria
+- [ ] 12+ scenarios documented
+- [ ] Exploitation paths identified
+- [ ] Risk levels assigned
+
+## Time Box
+Estimated: 45 minutes
+
+## Definition of Done
+- [ ] Scenarios in master sheet
+- [ ] Risk assessments complete",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] Cloud SQL & Firestore data exfiltration","## Context
+Part of Day 1 focusing on database attack scenarios.
+
+## Objective
+Document data exfiltration scenarios for database services.
+
+## Success Criteria
+- [ ] 12+ database scenarios
+- [ ] Exfiltration methods documented
+- [ ] Data sensitivity classified
+
+## Time Box
+Estimated: 45 minutes
+
+## Definition of Done
+- [ ] Scenarios documented
+- [ ] Methods catalogued",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Research] IAM & Secret Manager scenarios","## Context
+Part of Day 1 focusing on privilege escalation and credential theft.
+
+## Objective
+Document IAM and secrets management attack scenarios.
+
+## Success Criteria
+- [ ] 12+ IAM/secrets scenarios
+- [ ] Escalation paths mapped
+- [ ] Impact levels assessed
+
+## Time Box
+Estimated: 45 minutes
+
+## Definition of Done
+- [ ] Scenarios in sheet
+- [ ] Paths documented",High,1,"type/research,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"[Documentation] Consolidate Day 1 scenarios","## Context
+End of Day 1 - need to consolidate all brainstormed scenarios into master sheet.
+
+## Objective
+Organize and clean up all 100 scenarios in master tracking sheet.
+
+## Success Criteria
+- [ ] All scenarios in standard format
+- [ ] Proper categorization applied
+- [ ] Duplicates removed
+- [ ] Initial scoring added
+
+## Time Box
+Estimated: 2 hours
+
+## Definition of Done
+- [ ] Master sheet complete
+- [ ] All fields populated
+- [ ] Ready for Day 2 ranking",Medium,2,"type/documentation,week-1",,"Day 1: Deployment Landscape Mapping","Week 1: Discovery & Signal Detection"
+"Day 2: Scenario Ranking Workshop","## Context
+Second day focused on prioritizing scenarios for testing based on impact and feasibility.
+
+## Objective
+Score and rank all 100 scenarios using weighted criteria.
+
+## Success Criteria
+- [ ] Scoring matrix defined
+- [ ] All 100 scenarios scored
+- [ ] Top 20 identified
+- [ ] ScenarioDrop templates created
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Scoring complete
+- [ ] Rankings finalized
+- [ ] Templates ready
+- [ ] DeepMind updated",Urgent,8,"type/research,team/full-team,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Research] Define weighted scoring criteria","## Context
+Need objective criteria for ranking scenarios by risk and feasibility.
+
+## Objective
+Create scoring matrix for scenario evaluation.
+
+## Success Criteria
+- [ ] Impact criteria defined (1-10)
+- [ ] Feasibility criteria defined (1-10)
+- [ ] Detectability criteria defined (1-10)
+- [ ] Weighting factors set
+
+## Time Box
+Estimated: 2 hours
+
+## Definition of Done
+- [ ] Matrix documented
+- [ ] Team consensus achieved
+- [ ] Ready for scoring",High,2,"type/research,week-1",,"Day 2: Scenario Ranking Workshop","Week 1: Discovery & Signal Detection"
+"[Research] Score all 100 scenarios","## Context
+Apply scoring matrix to all scenarios for objective ranking.
+
+## Objective
+Complete scoring of all 100 scenarios with team input.
+
+## Success Criteria
+- [ ] All scenarios scored on all dimensions
+- [ ] 2 minutes per scenario maintained
+- [ ] Scores recorded in sheet
+- [ ] Top 20 identified
+
+## Time Box
+Estimated: 3.5 hours
+
+## Definition of Done
+- [ ] All scores entered
+- [ ] Rankings calculated
+- [ ] Top 20 highlighted",High,3.5,"type/research,team/full-team,week-1",,"Day 2: Scenario Ranking Workshop","Week 1: Discovery & Signal Detection"
+"[Documentation] Create scenarioDrop templates","## Context
+Need ready-to-use prompts for rapid signal detection on Day 3.
+
+## Objective
+Create copy-paste templates for top 20 scenarios.
+
+## Success Criteria
+- [ ] Templates for all top 20
+- [ ] 30-turn protocol integrated
+- [ ] Clear triggers defined
+- [ ] Format standardized
+
+## Time Box
+Estimated: 2.5 hours
+
+## Definition of Done
+- [ ] All templates created
+- [ ] Stored in shared drive
+- [ ] Team trained on use",Medium,2.5,"type/documentation,week-1",,"Day 2: Scenario Ranking Workshop","Week 1: Discovery & Signal Detection"
+"Day 3: Rapid Signal Detection Sprint","## Context
+Critical testing day to find initial signals across top scenarios.
+
+## Objective
+Run 30-turn protocol on 16 scenarios and document signals.
+
+## Success Criteria
+- [ ] 16 scenarios tested completely
+- [ ] All chat histories saved
+- [ ] Signals documented
+- [ ] Patterns identified
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] All tests complete
+- [ ] Data saved
+- [ ] Analysis ready",Urgent,8,"type/testing,team/pair-work,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Testing] Morning scenario tests (1-8)","## Context
+First testing block of Day 3 rapid signal detection.
+
+## Objective
+Complete 30-turn protocol on scenarios 1-8.
+
+## Success Criteria
+- [ ] 8 scenarios tested (4 per person)
+- [ ] 45 minutes per scenario maintained
+- [ ] Full transcripts saved
+- [ ] Signals logged real-time
+
+## Time Box
+Estimated: 3 hours
+
+## Definition of Done
+- [ ] Tests complete
+- [ ] JSON files saved
+- [ ] Sheet updated",High,3,"type/testing,team/pair-work,week-1",,"Day 3: Rapid Signal Detection Sprint","Week 1: Discovery & Signal Detection"
+"[Testing] Afternoon scenario tests (9-16)","## Context
+Second testing block of Day 3 rapid signal detection.
+
+## Objective
+Complete 30-turn protocol on scenarios 9-16.
+
+## Success Criteria
+- [ ] 8 scenarios tested
+- [ ] Transcripts captured
+- [ ] Signals documented
+- [ ] Ready for analysis
+
+## Time Box
+Estimated: 3.5 hours
+
+## Definition of Done
+- [ ] Tests complete
+- [ ] Data saved
+- [ ] Signals flagged",High,3.5,"type/testing,team/pair-work,week-1",,"Day 3: Rapid Signal Detection Sprint","Week 1: Discovery & Signal Detection"
+"[Research] Analyze Day 3 signals and patterns","## Context
+End of Day 3 - need to identify patterns across all tests.
+
+## Objective
+Compile and analyze all positive signals from testing.
+
+## Success Criteria
+- [ ] All signals compiled
+- [ ] Patterns identified
+- [ ] Success rates calculated
+- [ ] Scenarios re-ranked
+
+## Time Box
+Estimated: 1.5 hours
+
+## Definition of Done
+- [ ] Analysis complete
+- [ ] Patterns documented
+- [ ] Rankings updated",Medium,1.5,"type/research,week-1",,"Day 3: Rapid Signal Detection Sprint","Week 1: Discovery & Signal Detection"
+"Day 4: DeepMind Presentation & Signal Expansion","## Context
+Present Week 1 findings to DeepMind and begin expanding successful signals.
+
+## Objective
+Deliver Week 1 presentation and expand top signals into scaffolds.
+
+## Success Criteria
+- [ ] Presentation delivered
+- [ ] Feedback incorporated
+- [ ] Signal expansion started
+- [ ] Week 2 plan adjusted
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Presentation complete
+- [ ] Feedback documented
+- [ ] Scaffolds started",Urgent,8,"type/presentation,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Presentation] Compile Week 1 findings","## Context
+Prepare comprehensive presentation of Week 1 discoveries for DeepMind.
+
+## Objective
+Create slide deck with all findings and demo videos.
+
+## Success Criteria
+- [ ] All findings compiled
+- [ ] Slide deck created
+- [ ] Demo videos embedded
+- [ ] Statistics included
+
+## Time Box
+Estimated: 2 hours
+
+## Definition of Done
+- [ ] Deck complete
+- [ ] Videos ready
+- [ ] Stats verified",High,2,"type/presentation,week-1",,"Day 4: DeepMind Presentation & Signal Expansion","Week 1: Discovery & Signal Detection"
+"[Presentation] DeepMind Week 1 call","## Context
+Weekly checkpoint with DeepMind to share progress and get feedback.
+
+## Objective
+Present findings and align on Week 2 priorities.
+
+## Success Criteria
+- [ ] Presentation delivered
+- [ ] Questions answered
+- [ ] Feedback captured
+- [ ] Next steps agreed
+
+## Time Box
+Estimated: 1 hour
+
+## Definition of Done
+- [ ] Call complete
+- [ ] Notes documented
+- [ ] Action items logged",High,1,"type/presentation,team/full-team,week-1",,"Day 4: DeepMind Presentation & Signal Expansion","Week 1: Discovery & Signal Detection"
+"Day 5: Signal Expansion & Scaffolding","## Context
+Final day of Week 1 - expand successful signals into full prompt scaffolds.
+
+## Objective
+Create 5-8 expanded scenarios with full context and perturbations.
+
+## Success Criteria
+- [ ] 5-8 scaffolds created
+- [ ] Perturbations designed
+- [ ] Controls defined
+- [ ] Initial tests run
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Scaffolds complete
+- [ ] Tests documented
+- [ ] Ready for Week 2",High,8,"type/research,week-1","Week 1 Deliverables",,"Week 1: Discovery & Signal Detection"
+"[Research] Select top signals for expansion","## Context
+Choose the most promising signals from Day 3 testing for deep dive.
+
+## Objective
+Identify 5-8 signals with highest potential for expansion.
+
+## Success Criteria
+- [ ] Signals reviewed and ranked
+- [ ] Top 5-8 selected
+- [ ] Rationale documented
+- [ ] Assignments made
+
+## Time Box
+Estimated: 1 hour
+
+## Definition of Done
+- [ ] Selection complete
+- [ ] Team aligned",Medium,1,"type/research,week-1",,"Day 5: Signal Expansion & Scaffolding","Week 1: Discovery & Signal Detection"
+"[Documentation] Create prompt scaffolds","## Context
+Expand signals into full scenarios with system context and personas.
+
+## Objective
+Develop detailed prompt scaffolds for selected signals.
+
+## Success Criteria
+- [ ] System context defined
+- [ ] Personas created
+- [ ] Environmental setup documented
+- [ ] Conversation flows designed
+
+## Time Box
+Estimated: 4 hours
+
+## Definition of Done
+- [ ] All scaffolds documented
+- [ ] Templates created
+- [ ] Ready for testing",High,4,"type/documentation,week-1",,"Day 5: Signal Expansion & Scaffolding","Week 1: Discovery & Signal Detection"
+"[Testing] Test expanded scaffolds","## Context
+Validate expanded scaffolds with initial testing runs.
+
+## Objective
+Run expanded scenarios with variations to test robustness.
+
+## Success Criteria
+- [ ] 5+ variations per scaffold tested
+- [ ] Success rates documented
+- [ ] Triggers identified
+- [ ] Patterns noted
+
+## Time Box
+Estimated: 3 hours
+
+## Definition of Done
+- [ ] Tests complete
+- [ ] Results logged
+- [ ] Patterns documented",Medium,3,"type/testing,week-1",,"Day 5: Signal Expansion & Scaffolding","Week 1: Discovery & Signal Detection"
+"[Documentation] Week 2 Scaffold Writeup #1","## Context
+First of 12-16 required writeups documenting prompt-based scaffolding results.
+
+## Objective
+Complete 5-8 page writeup with all required sections per criteria.
+
+## Success Criteria
+- [ ] Executive summary ≤ 1 page
+- [ ] Full writeup 5-8 pages
+- [ ] 30+ test iterations documented
+- [ ] Statistical significance p < 0.05
+- [ ] GitHub repo created
+- [ ] Reproduction verified
+
+## Time Box
+Estimated: 6 hours
+
+## Definition of Done
+- [ ] Writeup complete
+- [ ] GitHub repo live
+- [ ] Stats validated
+- [ ] Peer reviewed",High,6,"type/documentation,week-2","Week 2 Deliverables",,"Week 2: Prompt-Based Scaffolding"
+"[Documentation] Week 2 Scaffold Writeup #2","## Context
+Second prompt-based scaffold writeup for Week 2 deliverables.
+
+## Objective
+Complete comprehensive writeup for scenario #2.
+
+## Success Criteria
+- [ ] All sections complete per template
+- [ ] Control conditions documented
+- [ ] Perturbations tested
+- [ ] Results statistically significant
+
+## Time Box
+Estimated: 6 hours
+
+## Definition of Done
+- [ ] Writeup finalized
+- [ ] Data in repository
+- [ ] Review complete",High,6,"type/documentation,week-2","Week 2 Deliverables",,"Week 2: Prompt-Based Scaffolding"
+"[Documentation] Week 2 Scaffold Writeup #3","## Context
+Third writeup for Week 2 prompt-based scaffolding deliverables.
+
+## Objective
+Document scenario #3 with full statistical analysis.
+
+## Success Criteria
+- [ ] Writeup meets all criteria
+- [ ] GitHub repo populated
+- [ ] Reproduction instructions clear
+- [ ] Statistical rigor maintained
+
+## Time Box
+Estimated: 6 hours
+
+## Definition of Done
+- [ ] Documentation complete
+- [ ] Repository updated
+- [ ] Validation done",High,6,"type/documentation,week-2","Week 2 Deliverables",,"Week 2: Prompt-Based Scaffolding"
+"[Documentation] Week 2 Scaffold Writeup #4","## Context
+Fourth scaffold writeup continuing Week 2 deliverables.
+
+## Objective
+Complete scenario #4 documentation with all required elements.
+
+## Success Criteria
+- [ ] 5-8 page writeup complete
+- [ ] Test data documented
+- [ ] Controls validated
+- [ ] Patterns identified
+
+## Time Box
+Estimated: 6 hours
+
+## Definition of Done
+- [ ] Writeup submitted
+- [ ] Data archived
+- [ ] Review passed",Medium,6,"type/documentation,week-2","Week 2 Deliverables",,"Week 2: Prompt-Based Scaffolding"
+"[Presentation] Week 2 DeepMind Update","## Context
+Mid-project checkpoint to share prompt-based scaffolding results.
+
+## Objective
+Present Week 2 findings and get feedback for Week 3.
+
+## Success Criteria
+- [ ] All writeups summarized
+- [ ] Success rates presented
+- [ ] Patterns highlighted
+- [ ] Feedback captured
+
+## Time Box
+Estimated: 3 hours (prep + call)
+
+## Definition of Done
+- [ ] Presentation delivered
+- [ ] Feedback documented
+- [ ] Week 3 adjusted",High,3,"type/presentation,week-2","Week 2 Deliverables",,"Week 2: Prompt-Based Scaffolding"
+"[Engineering] Realistic Implementation #1","## Context
+First of 3 realistic GCP implementations for Week 3.
+
+## Objective
+Build production-like environment demonstrating misalignment.
+
+## Success Criteria
+- [ ] GCP infrastructure deployed
+- [ ] Misalignment mechanism implemented
+- [ ] Demo video recorded
+- [ ] Believability assessed
+
+## Time Box
+Estimated: 16 hours (2 days)
+
+## Definition of Done
+- [ ] Implementation live
+- [ ] Video recorded
+- [ ] Documentation complete
+- [ ] GitHub repo ready",Urgent,16,"type/engineering,week-3","Week 3 Deliverables",,"Week 3: Realistic Implementations"
+"[Infrastructure] Set up GCP services for demo #1","## Context
+Configure production-like GCP environment for first realistic demo.
+
+## Objective
+Provision and configure all required GCP services.
+
+## Success Criteria
+- [ ] Services provisioned
+- [ ] IAM configured
+- [ ] Networking set up
+- [ ] Monitoring enabled
+
+## Time Box
+Estimated: 4 hours
+
+## Definition of Done
+- [ ] Infrastructure live
+- [ ] Access verified
+- [ ] Documented",High,4,"type/infrastructure,week-3",,"[Engineering] Realistic Implementation #1","Week 3: Realistic Implementations"
+"[Engineering] Build application for demo #1","## Context
+Implement the main application logic for realistic demo.
+
+## Objective
+Create production-grade application with misalignment triggers.
+
+## Success Criteria
+- [ ] Application deployed
+- [ ] Business logic implemented
+- [ ] Triggers embedded
+- [ ] Testing complete
+
+## Time Box
+Estimated: 6 hours
+
+## Definition of Done
+- [ ] App running
+- [ ] Features working
+- [ ] Triggers hidden",High,6,"type/engineering,week-3",,"[Engineering] Realistic Implementation #1","Week 3: Realistic Implementations"
+"[Documentation] Record demo video #1","## Context
+Create 'in the wild' demonstration video for realistic implementation.
+
+## Objective
+Record high-quality video showing misalignment in production setting.
+
+## Success Criteria
+- [ ] 5-10 minute full demo
+- [ ] 1-2 minute highlights
+- [ ] Clear narration
+- [ ] Impact demonstrated
+
+## Time Box
+Estimated: 3 hours
+
+## Definition of Done
+- [ ] Videos recorded
+- [ ] Editing complete
+- [ ] Uploaded",Medium,3,"type/documentation,week-3",,"[Engineering] Realistic Implementation #1","Week 3: Realistic Implementations"
+"[Documentation] Believability assessment #1","## Context
+Assess and document the realism of implementation #1.
+
+## Objective
+Score implementation on believability criteria (1-10).
+
+## Success Criteria
+- [ ] All dimensions scored
+- [ ] Justification documented
+- [ ] Comparison to prompt version
+- [ ] Improvements noted
+
+## Time Box
+Estimated: 2 hours
+
+## Definition of Done
+- [ ] Assessment complete
+- [ ] Scores justified
+- [ ] Documented",Medium,2,"type/documentation,week-3",,"[Engineering] Realistic Implementation #1","Week 3: Realistic Implementations"
+"[Engineering] Realistic Implementation #2","## Context
+Second realistic implementation for Week 3 deliverables.
+
+## Objective
+Build second production-like demonstration.
+
+## Success Criteria
+- [ ] Different attack vector than #1
+- [ ] Full implementation
+- [ ] Video recorded
+- [ ] Documentation complete
+
+## Time Box
+Estimated: 16 hours
+
+## Definition of Done
+- [ ] Demo complete
+- [ ] Video ready
+- [ ] Assessed",High,16,"type/engineering,week-3","Week 3 Deliverables",,"Week 3: Realistic Implementations"
+"[Engineering] Realistic Implementation #3","## Context
+Third and final realistic implementation for Week 3.
+
+## Objective
+Complete third production demonstration.
+
+## Success Criteria
+- [ ] Unique scenario
+- [ ] Full deployment
+- [ ] Video demonstration
+- [ ] Complete package
+
+## Time Box
+Estimated: 16 hours
+
+## Definition of Done
+- [ ] Implementation live
+- [ ] Documentation done
+- [ ] Video complete",Medium,16,"type/engineering,week-3","Week 3 Deliverables",,"Week 3: Realistic Implementations"
+"[Presentation] Week 3 DeepMind Demo","## Context
+Present realistic implementations to DeepMind.
+
+## Objective
+Demonstrate all 3 realistic implementations with live demos.
+
+## Success Criteria
+- [ ] All demos presented
+- [ ] Comparisons shown
+- [ ] Feedback captured
+- [ ] Final week planned
+
+## Time Box
+Estimated: 3 hours
+
+## Definition of Done
+- [ ] Presentation complete
+- [ ] Demos successful
+- [ ] Notes taken",High,3,"type/presentation,week-3","Week 3 Deliverables",,"Week 3: Realistic Implementations"
+"[Testing] Strengthen test cases","## Context
+Week 4 - reinforce strongest findings with additional evidence.
+
+## Objective
+Re-run best scenarios for statistical significance.
+
+## Success Criteria
+- [ ] Additional runs complete
+- [ ] Controls validated
+- [ ] Causation verified
+- [ ] Stats improved
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Tests complete
+- [ ] Evidence stronger
+- [ ] Stats significant",High,8,"type/testing,week-4","Final Report & Handoff",,"Week 4: Final Report & Delivery"
+"[Documentation] Draft final report","## Context
+Create comprehensive report of all findings for DeepMind.
+
+## Objective
+Write complete report with executive summary and recommendations.
+
+## Success Criteria
+- [ ] Executive summary complete
+- [ ] All sections drafted
+- [ ] Statistics included
+- [ ] Visualizations created
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Draft complete
+- [ ] Reviews done
+- [ ] Ready for polish",Urgent,8,"type/documentation,week-4","Final Report & Handoff",,"Week 4: Final Report & Delivery"
+"[Documentation] Create mitigation recommendations","## Context
+Provide actionable recommendations for addressing discovered risks.
+
+## Objective
+Document mitigation strategies for all identified patterns.
+
+## Success Criteria
+- [ ] All patterns addressed
+- [ ] Mitigations prioritized
+- [ ] Implementation guidance
+- [ ] Limitations noted
+
+## Time Box
+Estimated: 4 hours
+
+## Definition of Done
+- [ ] Recommendations complete
+- [ ] Actionable items
+- [ ] Reviewed",High,4,"type/documentation,week-4","Final Report & Handoff",,"Week 4: Final Report & Delivery"
+"[Documentation] Finalize report and handoff","## Context
+Final polishing and delivery of all materials to DeepMind.
+
+## Objective
+Complete final report and transfer all deliverables.
+
+## Success Criteria
+- [ ] Report finalized
+- [ ] All materials packaged
+- [ ] Access transferred
+- [ ] Handoff complete
+
+## Time Box
+Estimated: 8 hours
+
+## Definition of Done
+- [ ] Everything delivered
+- [ ] Access confirmed
+- [ ] Sign-off received",Urgent,8,"type/documentation,week-4","Final Report & Handoff",,"Week 4: Final Report & Delivery"
+"[Documentation] Team retrospective","## Context
+Capture lessons learned and recommendations for future work.
+
+## Objective
+Document team learnings and process improvements.
+
+## Success Criteria
+- [ ] Lessons documented
+- [ ] Improvements identified
+- [ ] Recommendations made
+- [ ] Knowledge transferred
+
+## Time Box
+Estimated: 3 hours
+
+## Definition of Done
+- [ ] Retro complete
+- [ ] Document shared
+- [ ] Actions identified",Low,3,"type/documentation,week-4",,,"Week 4: Final Report & Delivery"
